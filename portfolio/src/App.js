@@ -1,25 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
-
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+import HomePage from './components/HomePage';
+import Navigation from './components/Navigation';
+import About from './components/AboutPage';
+import Footer from './components/Footer';
+import KakaoPage from './components/KakaoPage';
+import ScrappyPage from './components/ScrappyPage';
+import DaybreakPage from './components/DaybreakPage';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+
+      <Navigation />
+
+      <Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/daybreak" element={<DaybreakPage />} />
+        <Route path="/scrappy" element={<ScrappyPage />} />
+        <Route path="/kakao" element={<KakaoPage />} />
+        <Route path="/" element={<HomePage />} />
+
+
+      </Routes>
+
+      <Footer />
+
+    </Router>
   );
 }
+
 
 export default App;

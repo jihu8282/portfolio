@@ -1,0 +1,16 @@
+.footer{
+  background-color: black;
+  height: 168px;
+  width:100%;
+  display: flex;
+}
+.footerText{
+  color:white;
+  margin-top: 48px;
+  margin-left: 32px;
+ 
+}
+
+.icons{
+  margin-left: auto;
+}

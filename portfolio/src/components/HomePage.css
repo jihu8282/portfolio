@@ -1,0 +1,46 @@
+.homePageText{
+  margin-left: 180px;
+  margin-top: 48px;
+}
+.bigTitle{
+  margin-left: 180px;
+  margin-top: 260px;
+  font-family: MonumentExtended;
+  font-size: 120px;
+}
+.big1{
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: transparent;
+}
+
+.big3{
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: transparent;
+
+}
+.big2{
+  display: flex;
+  gap: 128px;
+  flex-wrap: wrap;
+}
+
+.homePageText{
+  font-size: 24px;
+}
+
+.topHome{
+  display: flex;
+  align-items: flex-end;
+  gap: 48px;
+  margin-bottom: 196px;
+}
+
+.projectBlocks{
+  display:flex;
+  width: 1095px;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 48px 76px;
+  margin-bottom: 132px;
+
+}
