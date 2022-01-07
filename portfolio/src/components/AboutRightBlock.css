@@ -1,0 +1,15 @@
+.title{
+  margin-top: 32px;
+  font-size: 20px;
+  font-family: MonumentExtended;
+  color: black;
+  margin-bottom: 4px;
+
+}
+.text{
+  margin-bottom: 40px;
+}
+
+.block{
+  text-align: left;
+}

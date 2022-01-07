@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import KakaoPage from './components/KakaoPage';
 import ScrappyPage from './components/ScrappyPage';
 import DaybreakPage from './components/DaybreakPage';
+import InteractiveProjectsPage from './components/InteractiveProjectsPage';
 function App() {
   return (
     <Router>
@@ -21,6 +22,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/daybreak" element={<DaybreakPage />} />
         <Route path="/scrappy" element={<ScrappyPage />} />
+        <Route path="/interactive" element={<InteractiveProjectsPage />} />
         <Route path="/kakao" element={<KakaoPage />} />
         <Route path="/" element={<HomePage />} />
 

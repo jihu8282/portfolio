@@ -1,10 +1,12 @@
 .homePageText{
-  margin-left: 180px;
+  /* margin-left: 180px; */
   margin-top: 48px;
+  font-size: 24px;
 }
+
 .bigTitle{
-  margin-left: 180px;
-  margin-top: 260px;
+  /* margin-left: 180px; */
+  margin-top: 120px;
   font-family: MonumentExtended;
   font-size: 120px;
 }
@@ -24,15 +26,12 @@
   flex-wrap: wrap;
 }
 
-.homePageText{
-  font-size: 24px;
-}
-
 .topHome{
   display: flex;
   align-items: flex-end;
   gap: 48px;
   margin-bottom: 196px;
+  justify-content: center;
 }
 
 .projectBlocks{
@@ -44,3 +43,4 @@
   margin-bottom: 132px;
 
 }
+

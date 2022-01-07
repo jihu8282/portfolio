@@ -1,0 +1,78 @@
+.bodyforProject{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.daybreakIpd{
+  color: black;
+}
+.box{
+  margin-top: 16px;
+  margin-bottom: 88px;
+}
+.problemContext{
+  display: flex;
+  column-gap: 160px;
+  align-content: center;
+}
+
+
+.rightContext{
+  margin-top: 20px;
+}
+
+.researchContext{
+  display: flex;
+  column-gap: 188px;
+  margin-bottom: 80px;
+}
+
+.afterCovid{
+ align-content: center;
+}
+
+.hmw{
+  font-weight: 700;
+  font-size: 36px;
+  background: -webkit-linear-gradient( #00BF57, #005F91);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.boxTop{
+  display: flex;
+  column-gap: 224px;
+  margin-bottom: 76px;
+}
+
+.ideationImages{
+  display: flex;
+  column-gap: 56px;
+  justify-content: center;
+}
+.testingImg{
+  width: 20%;
+}
+
+.nextPage{
+  display: flex;
+  justify-content:end;
+  column-gap: 16px;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.nextProject{
+  text-decoration: none;
+  font-weight: 400;
+  color:black;
+}
+
+
+.nextPage :hover{
+  font-weight: 400;
+  background: -webkit-linear-gradient( #ECD92F, #EC2F46);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}

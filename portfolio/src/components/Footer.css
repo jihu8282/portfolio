@@ -7,10 +7,30 @@
 .footerText{
   color:white;
   margin-top: 48px;
-  margin-left: 32px;
+  margin-left: 60px;
  
 }
 
 .icons{
+  display: flex;
+  gap: 8px 8px;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.name{
+  font-size: 16px;
+  background: -webkit-linear-gradient( #ECD92F, #EC2F46);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rightFooter{
   margin-left: auto;
+  align-self: center;
+}
+
+.copyAndName{
+  display: flex;
+  gap: 8px 8px;
 }

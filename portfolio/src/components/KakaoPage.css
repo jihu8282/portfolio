@@ -1,0 +1,13 @@
+.row1{
+  display: flex;
+  align-items: flex-start;
+}
+.row2{
+  display: flex;
+  align-items: flex-end;
+}
+
+.allPic{
+  display: flex;
+  justify-content: center;
+}

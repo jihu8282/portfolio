@@ -1,0 +1,16 @@
+
+.topBlock{
+  margin-top: 54px;
+  display: flex;
+  column-gap: 84px;
+}
+
+.myRole{
+  padding: 36px;
+  border-radius: 20px;
+  color: white;
+}
+
+.projectPageProject{
+  width: 640px;
+}

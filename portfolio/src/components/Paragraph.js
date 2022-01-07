@@ -1,6 +1,6 @@
 import "./Paragraph.css";
-export default function Paragraph({children, className}) {
+export default function Paragraph({children, className, onClick}) {
   return (
-    <p className = {`paragraph ${className}` }>{children}</p>
+    <p className = {`paragraph ${className}` } onClick= {onClick}>{children}</p>
   )
 }

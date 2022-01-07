@@ -1,0 +1,41 @@
+.about{
+  display: flex;
+  justify-content: center;
+  column-gap: 116px;
+  margin-bottom: 92px;
+
+}
+.hello{
+  font-size: 20px;
+  font-family: MonumentExtended;
+  margin-bottom: 36px;
+}
+
+.resume{
+  color: black;
+}
+
+.rightText{
+  margin-top: 180px;
+}
+
+.leftText{
+  margin-top: 40px;
+}
+
+.iconBlock{
+  margin-bottom: 16px;
+  display: flex;
+  column-gap: 24px;
+}
+
+.memoji{
+  margin-left: -44px;
+}
+
+.outside{
+  font-size: 20px;
+  font-family: MonumentExtended;
+  color: black;
+  margin-bottom: 12px;
+}

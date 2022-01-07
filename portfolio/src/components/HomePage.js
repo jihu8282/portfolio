@@ -5,6 +5,7 @@ import ProjectBlock from "./ProjectBlock";
 import daybreak from "../assets/home/daybreakHome.svg";
 import scrappy from "../assets/home/scrappyHome.svg";
 import kakao from "../assets/home/kakaoHome.svg";
+import interactive from "../assets/home/intProjHome.svg";
 export default function HomePage() {
   return (
     <div className="body">
@@ -38,10 +39,11 @@ export default function HomePage() {
       </div>
 
       <div className="projectBlocks">
-          <ProjectBlock src= {daybreak} title="DAYBREAK" subtitle="UI UX DESIGN" href= "/daybreak"></ProjectBlock>
-          <ProjectBlock src= {scrappy} title="SCRAPPY" subtitle="UI UX DESIGN" href= "/scrappy"></ProjectBlock>
-          <ProjectBlock src= {kakao} title="KAKAO" subtitle="UX DESIGN INTERNSHIP" href= "/kakao"></ProjectBlock>
-      
+          <ProjectBlock className= "block" src= {daybreak} title="DAYBREAK" subtitle="UI UX DESIGN" href= "/daybreak"></ProjectBlock>
+          <ProjectBlock className= "block" src= {scrappy} title="SCRAPPY" subtitle="UI UX DESIGN" href= "/scrappy"></ProjectBlock>
+          <ProjectBlock className= "block" src= {interactive} title="INTERACTIVE PROJECTS" subtitle="JAVASCRIPT-HTML-CSS" href= "/interactive"></ProjectBlock>
+          <ProjectBlock className= "block" src= {kakao} title="KAKAO" subtitle="UX DESIGN INTERNSHIP" href= "/kakao"></ProjectBlock>
+    
       </div>
 
       

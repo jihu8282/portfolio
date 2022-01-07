@@ -1,5 +1,13 @@
 .block{
   width:508px;
   text-align: right;
+}
+
+.block img{
+  transition: transform .3s ease;
+}
+
+.block:hover img{
+  transform: scale(1.03);
 
 }

@@ -1,0 +1,54 @@
+.modalities{
+  display: flex;
+  column-gap: 136px;
+  justify-content: center;
+}
+
+.journeyMap{
+  width: 50%;
+}
+.insights{
+  margin-bottom: 48px;
+}
+
+.ideationImagesScrappy{
+  display: flex;
+  column-gap: 56px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.productScrappy{
+  justify-content: center;
+}
+
+.arrows{
+  display: flex;
+  justify-content: space-between;
+}
+.prev{
+  transform: rotate(180deg);
+}
+.prevPage{
+  display: flex;
+  justify-content:end;
+  column-gap: 16px;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.PrevProject{
+  text-decoration: none;
+  font-weight: 400;
+  color:black;
+}
+
+
+.Prev :hover{
+  font-weight: 400;
+  background: -webkit-linear-gradient( #ECD92F, #EC2F46);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
